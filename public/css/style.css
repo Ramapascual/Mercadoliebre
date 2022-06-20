@@ -1,3 +1,21 @@
+
+.color-negro{
+  color:black
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.subrayado{
+  text-decoration: none;
+
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
 .bg-yellow {
     background-color: #EAC926;
   }
@@ -41,3 +59,54 @@ span.titulares{
   .texto-centrado{
       text-align: center;
   }
+  .banner{
+    width: 100%;
+  }
+
+
+
+
+
+  .product {
+    margin: 15px 0;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .product .product-content {
+    position: relative;
+    padding: 15px;
+    border-top: solid #ebebeb 1px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--gap, 1rem);
+  }
+  
+  .product .product-content .price {
+    font-size: 18px;
+  }
+  
+  .product-content .fa-truck {
+    display: block;
+    position: absolute;
+    color: green;
+    border: solid green 1px;
+    background-color: white;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    right: 20px;
+    top: -15px;
+  }
+  
+  .descripcion {
+    font-weight: 800;
+    color: #4e4a4a;
+    margin-top: 15px;
+  }
+  
+
+  
